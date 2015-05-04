@@ -267,7 +267,9 @@
     <Content Include="images\banner2.jpg" />
     <Content Include="images\banner2.PNG" />
     <Content Include="images\banner3.PNG" />
+    <Content Include="images\check.png" />
     <Content Include="images\edit.png" />
+    <Content Include="images\information.png" />
     <Content Include="images\marsillon.jpg" />
     <Content Include="images\placeholder.png" />
     <Content Include="images\register.png" />
@@ -423,6 +425,7 @@
     <Content Include="js\tinymce\skins\lightgray\fonts\tinymce.ttf" />
     <Content Include="js\tinymce\skins\lightgray\fonts\tinymce.woff" />
     <Content Include="Content\Instrucciones Presentación de Resúmenes.pdf" />
+    <Content Include="Circulares\2 circular JFA 2015.pdf" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\EstadoAcreditacion.cshtml" />
     <Content Include="Views\Home\ImpresionDeComprobante.cshtml" />
