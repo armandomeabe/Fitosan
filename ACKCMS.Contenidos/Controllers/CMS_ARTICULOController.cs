@@ -28,7 +28,8 @@ namespace ACKCMS.Contenidos.Controllers
         // GET: CMS_ARTICULO
         public async Task<ActionResult> Index()
         {
-            return View(await db.CMS_ARTICULO.Where(x => !x.UI_FECHA_BAJA.HasValue).ToListAsync());
+            //return View(await db.CMS_ARTICULO.Where(x => !x.UI_FECHA_BAJA.HasValue).ToListAsync());
+            return View(await db.CMS_ARTICULO.ToListAsync());
         }
 
         // GET: CMS_ARTICULO/Details/5

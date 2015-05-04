@@ -16,14 +16,19 @@
                     <h3>Formulario de Acreditación <i>On Line</i></h3>
                     <h2>Por favor complete la información solicitada. Los campos marcados con <span style="color: red;">*</span> son obligatorios.</h2>
                     <hr />
-                    <h4>Se le recuerda a continuación la información bancaria para realizar el pago de su acreditación.</h4>
+                    <h4>Formas de pago</h4>
+                    <p> <img src="~/images/tick.png" style="width: 20px;"/> <strong>Cheque propio</strong>: emitido a nombre de Universidad Nacional del Litoral “no a la orden” y “cruzado”.</p>
                     <p>
-                        Dra. Roxana L. Maumary<br />
-                        JTP Cátedra de Fitopatologí­a.<br />
-                        Dpto. de Produción Vegetal. FCA-UNL<br />
-                        Tel/Fax:03496-426400 (110-369)<br />
-                        Dirección: P.Kreder 2805-Esperanza (3080)-Santa Fe
+                        <img src="~/images/tick.png" style="width: 20px;" />
+                        <strong>Transferencia bancaria</strong>:
+                        Banco Credicoop Suc. 340-Santa Fe
+                        CUIT: 30-54667055-0
+                        Cuenta Corriente Nro. 597-150-8
+                        CBU: 1910340655034059715082
+                        En este caso, deberá enviar comprobante por fax al tel: 03496-421037/424558 int. 219 o por e-mail a: serviciosaterceros@fcv.unl.edu.ar indicando el nombre de la persona física o jurídica que efectúa el pago y en concepto de qué realiza.
                     </p>
+                    <p> <img src="~/images/tick.png" style="width: 20px;"/> <strong>Efectivo</strong>: en la Secretaría de Gestión y Finanzas de la Facultad de Ciencias Agrarias de lunes a viernes de 8 a 16 hs. P. Kreder 2805-Esperanza (Santa Fe).</p>
+                    <p><img src="~/images/information.png" style="width: 20px;"/> <strong>Tel. contacto</strong>: 03496-421037 int. 220.</p>
                 </div>
                 <div class="2u">
                     <img src="@Url.Content("~/images/register.png")" style="width: 100%; margin-top: -50px;" />
@@ -159,11 +164,13 @@
                                 @if (DateTime.Now <= new DateTime(2015, 09, 15))
                                 {
                                     <option value="2">Profesional (1, 2) - $ 2000</option>
+                                    <option value="2">Profesional Socio AAF cuota al día - $ 1400</option>
                                     <option value="0">Estudiante (3) - $ 1000</option>
                                 }
                                 else
                                 {
                                     <option value="2">Profesional (1, 2) - $ 2500</option>
+                                    <option value="2">Profesional Socio AAF cuota al día - $ 1400</option>
                                     <option value="0">Estudiante (3)- $ 1000</option>
                                 }
                             </select>

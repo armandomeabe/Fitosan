@@ -72,9 +72,10 @@
                             <a href="#">Presentación de Trabajos</a>
                             <ul>
                                 <li><a href="@Url.Action("Areas", "Home")">Áreas</a></li>
-                                <li><a href="@Url.Content("~/Content/Instrucciones Presentación de Resúmenes.pdf")" target="_blank">Instrucciones y Fechas Límite</a></li>
+                                <li><a href="@Url.Action("Art", "Home", new {id = 8})" target="_blank">Instrucciones y Fechas Límite</a></li>
                                 <li><a href="@Url.Action("Trabajos", "Home")">Envío de Resúmenes</a></li>
-                                <li><a href="#">Reglamento de Posters</a></li>
+                                <li><a href="@Url.Action("Art", "Home", new {id = 9})">Reglamento de Posters</a></li>
+                                <li><a href="@Url.Action("Art", "Home", new {id = 10})">Circulares Informativas</a></li>
                             </ul>
                         </li>
                     </ul>

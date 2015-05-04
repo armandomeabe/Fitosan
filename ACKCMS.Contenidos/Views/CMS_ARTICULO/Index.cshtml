@@ -32,6 +32,10 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.ID_ARTICULO)
+                @if (item.UI_FECHA_BAJA.HasValue)
+                {
+                    <span style="color: red"> - Eliminado</span>
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TITULO)
